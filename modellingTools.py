@@ -9,4 +9,7 @@ def freeze2Zero():
         mc.move(0,0,0,each+'.rotatePivot',a = True, rpr = True)
 freeze2Zero()
 
-    
+#mel
+string $apapap = `getPanel -wf`;
+modelEditor -e -wos(!`modelEditor -q -wos $ap`) $apapap;
+#mel
