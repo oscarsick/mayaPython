@@ -1,6 +1,6 @@
 import maya.cmds as mc
 
-
+#simple version up texture files
 old_v = '009'
 v = '010'
 
